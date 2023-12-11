@@ -1,0 +1,97 @@
+body{
+    background:#0B173B;
+    margin: 0; /*zera as margens e bordas do corpo da página*/
+    padding: 0;
+}
+.menu{
+	width: 100%;
+	height: 60px;
+	background-color:#000000;
+	font-family: "Arial";
+}
+
+#logo_imagem{
+	height: 60px;
+    padding-left: 22px;
+}
+.menu ul{
+    float:right; /*alinha os elementos do menu à direita*/
+    list-style-type: none; /*remove os marcadores de lista*/
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    display: inline; /*remove as quebras de linha*/
+    float: left; /*faz com que os elementos do menu fiquem um do lado do outro*/
+}
+.menu a{
+    display: block;
+    text-align: center;
+    padding: 21px 22px;
+    color: white;
+    text-decoration: none; /*retira o sublinhado do link*/
+}
+.menu li a:hover {
+    background-color: #585858; /*faz com que mude a cor de fundo quando o mouse passa por cima*/
+  }
+.principal{
+    width: 1200px;
+	margin: 0 auto;
+    font-family: "Helvetica", Sans-serif;
+}
+.titulo{
+	color: #0EA98Fff;
+	text-align: left;
+	font-family: "Georgia", Serif;
+	font-size: 45px;
+	font-weight: bold;
+}
+#img_eliana{
+	width: 26%;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 0px;
+}
+.text{
+	font-size:22px;
+	text-align: justify;
+	font-family: "Helvetica", Sans-serif;
+	padding-right: 20px;
+    color: #FFFFFF;
+}
+.img_projeto{
+    width: 350px;
+	padding-top: 2px;
+    margin-right: 30px;
+	text-align: center;
+}
+.link{
+    text-align: left;
+	font-size: 25px;
+    text-decoration: none; /*retira o sublinhado do link*/
+	font-weight: bold;
+	font-family: "Helvetica", Sans-serif;
+	color: #F781D8;
+}
+.link:hover {
+    text-decoration: underline;/* quando o mouse passa por cima do link ele fica sublinhado*/
+  }
+#formulario{
+    font-size: 22px;
+	text-align: left;
+	font-family: "Helvetica", Sans-serif;
+	font-weight: bold;
+	color: 	#D2691E;
+}
+#botao{
+	background: 	#FF8C00;
+	color: white;
+	border: none;
+	height: 50px;
+	width: 100px;
+	font-weight: bold; 
+	font-size: 15px; 
+	font-family: arial, sans-serif;
+    cursor: pointer; /*faz com que o cursor do mouse mude quando ele passa por cima do botão*/
+}
+
